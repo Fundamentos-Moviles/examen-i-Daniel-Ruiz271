@@ -21,7 +21,6 @@ class _LoginState extends State<Login> {
       backgroundColor: fondo,
       body: Stack(
         children: [
-          // Fondo: fila con dos columnas
           Row(
             children: [
               // Primera columna
@@ -175,7 +174,7 @@ class _LoginState extends State<Login> {
                   ),
                 ],
               ),
-
+              //Tercera columna
               Column(
                 children: [
                   Container(
@@ -228,8 +227,6 @@ class _LoginState extends State<Login> {
 
             ],
           ),
-
-          // Contenedor transparente superpuesto en el centro
           Align(
             alignment: Alignment.center,
             child: Container(
@@ -346,11 +343,7 @@ class _LoginState extends State<Login> {
                         });
                       },
                       child: const Row(
-
-                        ///Alinear horizontamente
                         mainAxisAlignment: MainAxisAlignment.spaceAround,
-
-                        ///Vertical
                         crossAxisAlignment: CrossAxisAlignment.center,
                         children: [
                           Text(
